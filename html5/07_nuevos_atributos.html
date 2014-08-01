@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>NUEVOS ATRIBUTOS HTML5</title>
+</head>
+<body>
+	<input type="image" src="imgs/killzone.png" height="300px" width="500px">
+	<form action="demo_form.asp" autocomplete="off">
+		Escriba su nombre:<input type="text" name="fname" autofocus placeholder="Carlos" required><br>
+  		Edad: <input type="number" name="points" step=""><br>
+  		Ingrese una fecha 1996-08-13:
+		<input type="date" name="bday" min="1996-08-13"><br>
+		Ingrese una fecha 2014-12-31:
+		<input type="date" name="bday" max="2014-12-31"><br>
+ 		<input type="submit" name="Enviar" formtarget="_blanck">
+ 		<input type="submit" formnovalidate value="no enviar">
+	</form>
+		<form action="https://pic.twitter.com/coFXpZdzGl">
+  		Al presionar el boton ir, este lo llevara a un perfil de facebook <input type=submit value="ir" formaction="pic.twitter.com/coFXpZdzGl"><br>
+ 		<select name="" id="" multiple="">
+ 			<option >America</option>
+ 			<option >Asia</option>
+ 			<option >Europa</option>
+ 			<option >Africa</option>
+ 			<option >Oceania</option>
+ 		</select>
+ 		<input list="game" placeholder="Killzone">
+		<datalist id="game">
+  			<option value="Killzone">
+  			<option value="Smite">
+  			<option value="Dota2">
+  			<option value="Call of Duty">
+  			<option value="Halo Reach">
+		</datalist>
+	</form>
+</body>
+</html>
